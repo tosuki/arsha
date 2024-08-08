@@ -1,21 +1,8 @@
-import { ReactNode } from "react"
 import ContainerPrototype from "../prototype"
+import ServiceCard from "./serviceCard"
 
 import "./styles.css"
 
-export function ServiceCard(properties: {
-    title: string
-    icon: ReactNode
-    description: string
-}) {
-    return (
-        <div className="service-card">
-            { properties.icon }
-            <h1>{ properties.title }</h1>
-            <p>{ properties.description }</p>
-        </div>
-    )
-}
 
 export default function ServicesContainer() {
     return (
@@ -26,11 +13,12 @@ export default function ServicesContainer() {
                     <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
                 </div>
                 <div className="services">
-                    <ServiceCard 
-                        icon={(<span>test</span>)}
-                        title="hello"
-                        description="testando alguma coisa"
-                    />
+                    <ServiceCard
+                        title="test"
+                        description="test"
+                    >
+                        <div className="square" />
+                    </ServiceCard>
                 </div>
             </div>
         </ContainerPrototype>
