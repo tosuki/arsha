@@ -1,20 +1,18 @@
-import { ReactNode } from "react"
-
 import "./styles.css"
 
 export type ServiceCardProperties = {
     title: string
     description: string
-    children?: ReactNode
+    icon: string
 }
 
 export default function ServiceCard(properties: ServiceCardProperties) {
     return (
         <div className="service-card">
             <div className="thumb">
-                { properties.children }
+                <img src={ properties.icon } alt="icon"/>
             </div>
-            <div>
+            <div className="info-text">
                 <h1>{ properties.title }</h1>
                 <p>{ properties.description }</p>
             </div>

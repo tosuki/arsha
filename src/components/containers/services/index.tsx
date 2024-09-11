@@ -1,6 +1,8 @@
 import ContainerPrototype from "../prototype"
 import ServiceCard from "./serviceCard"
 
+import CalendarIcon from "../../../../assets/img/services/calendar4-week.svg"
+
 import "./styles.css"
 
 
@@ -14,11 +16,25 @@ export default function ServicesContainer() {
                 </div>
                 <div className="services">
                     <ServiceCard
-                        title="test"
-                        description="test"
-                    >
-                        <div className="square" />
-                    </ServiceCard>
+                        title="Lorem ipsum"
+                        description="Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi"
+                        icon={ CalendarIcon }
+                    />
+                    <ServiceCard
+                        title="Lorem ipsum"
+                        description="Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi"
+                        icon={ CalendarIcon }
+                    />
+                    <ServiceCard
+                        title="Lorem ipsum"
+                        description="Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi"
+                        icon={ CalendarIcon }
+                    />
+                    <ServiceCard
+                        title="Lorem ipsum"
+                        description="Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi"
+                        icon={ CalendarIcon }
+                    />
                 </div>
             </div>
         </ContainerPrototype>
