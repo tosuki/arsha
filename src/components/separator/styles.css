@@ -1,0 +1,17 @@
+.separator-container {
+    width: 50%;
+    height: 2px;
+
+    background-color: var(--heading-color);
+    border-radius: 5px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.separator-container .colored-space {
+    width: 30%;
+    height: 100%;
+    background-color: var(--accent-color);
+}

@@ -12,7 +12,7 @@
 }
 
 .services-container .header {
-    width: 100%;
+    min-width: 400px;
     
     display: flex;  
     align-items: center;
@@ -26,10 +26,12 @@
 .services-container .header h1 {
     text-transform: uppercase;
     color: var(--heading-color);
+
+    margin-bottom: 10px;
 }
 
 .services-container .header p {
-    margin-top: 10px;
+    margin-top: 20px;
 
     font-size: 16px;
     color: var(--default-color);

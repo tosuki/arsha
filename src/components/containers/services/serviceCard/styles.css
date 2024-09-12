@@ -1,27 +1,15 @@
 .service-card {
     width: 261px;
     min-height: 275px;
-
     background-color: var(--contrast-color);
-
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-
     padding-left: 20px;
     padding-right: 20px;
-
     margin: 10px;
-
-
     cursor: pointer;
-
-    transition: transform var(--animations-transition);
-}
-
-.service-card:hover {
-    transform: translateY(-5px);
 }
 
 .service-card:hover .info-text h1 {

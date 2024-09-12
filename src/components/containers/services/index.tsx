@@ -1,5 +1,6 @@
 import ContainerPrototype from "../prototype"
 import ServiceCard from "./serviceCard"
+import Separator from "../../separator"
 
 import CalendarIcon from "../../../../assets/img/services/calendar4-week.svg"
 
@@ -12,6 +13,7 @@ export default function ServicesContainer() {
             <div className="services-container" id="services">
                 <div className="header">
                     <h1>Services</h1>
+                    <Separator />
                     <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
                 </div>
                 <div className="services">

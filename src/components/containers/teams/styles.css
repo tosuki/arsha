@@ -1,0 +1,27 @@
+.teams-container {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.teams-container .teams-header {
+    min-width: 400px;
+
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.teams-container .teams-header h1 {
+    margin: 10px;
+    color: var(--heading-color);
+    text-transform: uppercase;
+}

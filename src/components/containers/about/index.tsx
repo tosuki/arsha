@@ -1,4 +1,5 @@
 import ContainerPrototype from "../prototype"
+import Separator from "../../separator"
 
 import "./styles.css"
 
@@ -8,6 +9,7 @@ export default function AboutContainer() {
             <div className="about-container" id="about">
                 <div className="header">
                     <h1>About us</h1>
+                    <Separator />
                 </div>
                 <div className="paragraphs">
                     <p>

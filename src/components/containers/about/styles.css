@@ -10,7 +10,13 @@
 }
 
 .about-container .header {
-    width: 100%;
+    min-width: 400px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
     text-align: center;
 
     padding-top: 50px;
@@ -20,6 +26,8 @@
 .about-container .header h1 {
     text-transform: uppercase;
     color: var(--heading-color);
+
+    margin-bottom: 15px;
 }
 
 .about-container .paragraphs {

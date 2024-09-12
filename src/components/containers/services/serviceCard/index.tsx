@@ -8,7 +8,7 @@ export type ServiceCardProperties = {
 
 export default function ServiceCard(properties: ServiceCardProperties) {
     return (
-        <div className="service-card">
+        <div className="service-card translateY-animation">
             <div className="thumb">
                 <img src={ properties.icon } alt="icon"/>
             </div>

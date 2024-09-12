@@ -62,3 +62,11 @@ body {
 .button:hover, .navigate-button:hover {
   opacity: 0.9;
 }
+
+.translateY-animation {
+  transition: transform var(--animations-transition);
+}
+
+.translateY-animation:hover {
+  transform: translateY(-5px);
+}

@@ -4,7 +4,8 @@ import {
     AboutContainer,
     Brands,
     HomeContainer,
-    ServicesContainer
+    ServicesContainer,
+    TeamsContainer
 } from "./components/containers"
 
 import "./styles/globals.css"
@@ -17,6 +18,7 @@ export default function App() {
             <Brands />
             <AboutContainer />
             <ServicesContainer />
+            <TeamsContainer />
         </div>
     )
 }
